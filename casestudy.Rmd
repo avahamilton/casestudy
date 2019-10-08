@@ -1,0 +1,20 @@
+---
+title: "casestudy"
+author: "Ava Hamilton"
+date: "10/8/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+library(p8105.datasets)
+data("nyc_airbnb")
+```
+
+* How are air bnb prices related to rent in the nieghborhood?
+* Which neighborhood has most expensive and cheapest rentals?
+* Do hosts with multiple sites ahve higher prices or ratings?
+* Does price have any relation to ratings?
